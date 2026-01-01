@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTIT Solution | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>CTIT<span>-SOLUTION</span></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="home-background">
+            <div class="overlay"></div>
+            <img src="homepgae-cover.jpg.jpeg" alt="Background" class="bg-image">
+        </div>
+        <div class="container">
+            <div class="home-content">
+                <div class="profile-image">
+                    <img src="homepgae-cover.jpg.jpeg" alt="Your Photo">
+                </div>
+                <div class="home-text">
+                    <h2>Welcome to <span class="highlight">CTIT Solution</span></h2>
+                    <h1>Computer Science & IT Specialist</h1>
+                    <p>Innovative solutions, cutting-edge technology, and professional development in the world of Computer Science and Information Technology.</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- CS/IT Articles Section -->
+            <div class="articles-section">
+                <h2 class="section-title">Latest in CS & IT</h2>
+                <div class="articles-grid" id="articles-grid">
+                    <!-- Articles will be loaded dynamically -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                <button class="filter-btn" data-filter="ai">AI/ML</button>
+            </div>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="about.jpg.jpeg" alt="Your Photo">
+                    <div class="education-info">
+                        <h3>Jazeera University</h3>
+                        <p>Bachelor's in Computer Science</p>
+                        <p class="year">2024 - 2029</p>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>My Journey in Technology</h3>
+                      <h3>Mohamed Abas Suleiman</h3>
+                    <p>Hello! I'm a passionate Computer Science  from Jazeera University with expertise in full-stack development, AI integration, and innovative software solutions.</p>
+                    
+                    <div class="education-history">
+                        <h4>Education History</h4>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-date">2025 -2029 </div>
+                                <div class="timeline-content">
+                                    <h5>Jazeera University</h5>
+                                    <p>Bachelor of Science in Computer Science</p>
+                                    <p>Specialized in Artificial Intelligence and Web Technologies</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-date">2015 - 2023</div>
+                                <div class="timeline-content">
+                                    <h5>High School Diploma</h5>
+                                    <p>Science and Mathematics Stream</p>
+                                    <p>Focus on Computer Studies and Programming</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="experience">
+                        <h4>Professional Experience</h4>
+                        <p>With 2+ years of hands-on experience in software development, I've worked on numerous projects ranging from web applications to AI-powered solutions. My passion lies in creating efficient, scalable, and user-friendly applications.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills & Formations</h2>
+            <div class="skills-container">
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span>JavaScript</span>
+                                <div class="skill-bar"><div class="skill-level" style="width: 90%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <span>Python</span>
+                                <div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <span>Javascript</span>
+                                <div class="skill-bar"><div class="skill-level" style="width: 80%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <span>C++</span>
+                                <div class="skill-bar"><div class="skill-level" style="width: 75%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3><i class="fas fa-laptop-code"></i> Web Development</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span>HTML/CSS</span>
+                                <div class="skill-bar"><div class="skill-level" style="width: 95%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <span>React.js</span>
+                                <div class="skill-bar"><div class="skill-level" style="width: 88%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <span>Node.js</span>
+                                <div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <span>MongoDB</span>
+                                <div class="skill-bar"><div class="skill-level" style="width: 82%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="formations-section">
+                    <h3>Certifications & Formations</h3>
+                    <div class="formations-list">
+                        <div class="formation-item">
+                            <div class="formation-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="formation-content">
+                                <h4>Full Stack Web Development</h4>
+                                <p>Coursera - 2024</p>
+                                <p>Complete certification in MERN stack development</p>
+                            </div>
+                        </div>
+                        <div class="formation-item">
+                            <div class="formation-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="formation-content">
+                                <h4>AI & Machine Learning</h4>
+                                <p>Udemy - 2024</p>
+                                <p>Specialization in TensorFlow and neural networks</p>
+                            </div>
+                        </div>
+                        <div class="formation-item">
+                            <div class="formation-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="formation-content">
+                                <h4>Cybersecurity Fundamentals</h4>
+                                <p>IBM - 2023</p>
+                                <p>Cybersecurity analyst certification</p>
+                            </div>
+                        </div>
+                        <div class="formation-item">
+                            <div class="formation-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <div class="formation-content">
+                                <h4>AWS Cloud Practitioner</h4>
+                                <p>Amazon Web Services - 2022</p>
+                                <p>Cloud infrastructure and services</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contact@ctitsolution.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (123) 456-7890</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Jazeera University Area</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://wa.me/1234567890" class="social-link whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://facebook.com" class="social-link facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://twitter.com" class="social-link twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://github.com" class="social-link github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com" class="social-link linkedin">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>CTIT<span>SOLUTION</span></h2>
+                    <p>Innovating through technology and creativity</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Me</h3>
+                    <div class="social-icons">
+                        <a href="https://wa.me/1234567890"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                        <a href="https://github.com"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CTIT Solution. All rights reserved. | Designed with ❤️</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
